@@ -41,4 +41,4 @@ jobs:
         repository: raw-github-action-test
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
         assets: filename=gh-action-test
-        filename: ./gh-action-test
+        filename: ./gh-action-test 

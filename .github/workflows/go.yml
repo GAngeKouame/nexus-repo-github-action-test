@@ -34,9 +34,9 @@ jobs:
     - name: Nexus Repo Publish
       uses: sonatype-nexus-community/nexus-repo-github-action@master
       with:
-        serverUrl: https://pinginx.dannyrollo.com/nexus3/
-        username: ${{ secrets.nxrm_user }}
-        password: ${{ secrets.nxrm_password }}
+        serverUrl: https://nexus-onesource.digital4danone.com/repository/dsp_maven2_01/
+        username: dsp_maven2_01_push
+        password: 77STfqeTeYsY
         format: raw
         repository: raw-github-action-test
         coordinates: directory=nexus-repo-github-action-test-rawrepodir
